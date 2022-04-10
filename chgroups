@@ -1,0 +1,9 @@
+admin usergroups:
+
+cpu
+net_cls
+netdev
+wheel
+
+
+WITHOUT ROOT USERNAME/GROUP!!

@@ -1,0 +1,24 @@
+pos:	0
+flags:	02000002
+mnt_id:	13
+tfd:        6 events:       19 data:          1468100  pos:0 ino:40f sdev:c
+tfd:        9 events:       19 data:          1468c40  pos:0 ino:40f sdev:c
+tfd:       14 events:       19 data:          1467be0  pos:0 ino:40f sdev:c
+tfd:       15 events:       19 data:          1471210  pos:0 ino:1189 sdev:7
+tfd:       11 events:       19 data:          1469430  pos:0 ino:1186 sdev:7
+tfd:        8 events:       19 data:          1469150  pos:0 ino:1185 sdev:7
+tfd:       12 events:       19 data:          14696f0  pos:0 ino:1187 sdev:7
+tfd:       13 events:       19 data:          1470fb0  pos:0 ino:1188 sdev:7
+tfd:       20 events:       18 data:          147b900  pos:0 ino:1fd sdev:10
+tfd:        7 events:       18 data:          1468dc0  pos:5 ino:239d sdev:12
+tfd:       26 events:       18 data:          1489ee0  pos:0 ino:1e0 sdev:10
+tfd:       10 events:       19 data:          1476230  pos:0 ino:78 sdev:5
+tfd:       18 events:       19 data:          1475a90  pos:0 ino:76 sdev:5
+tfd:       19 events:       18 data:          147a970  pos:0 ino:1fb sdev:10
+tfd:       21 events:       18 data:          147cf00  pos:0 ino:203 sdev:10
+tfd:       16 events:       19 data:          1471ba0  pos:0 ino:6e sdev:5
+tfd:       17 events:       19 data:          1471e90  pos:0 ino:6d sdev:5
+tfd:       22 events:       18 data:          14894d0  pos:0 ino:205 sdev:10
+tfd:       23 events:       18 data:          147a3d0  pos:0 ino:208 sdev:10
+tfd:       24 events:       18 data:          1487e00  pos:0 ino:20a sdev:10
+tfd:       25 events:       18 data:          14844b0  pos:0 ino:20c sdev:10

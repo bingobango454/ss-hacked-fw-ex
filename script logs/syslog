@@ -1,0 +1,23 @@
+Apr 10 01:43:52 porteus kernel: Expanded resource Reserved due to conflict with PCI Bus 0000:00
+Apr 10 01:43:52 porteus kernel: [Firmware Bug]: ACPI MWAIT C-state 0x0 not supported by HW (0x0)
+Apr 10 01:43:52 porteus last message buffered 3 times
+Apr 10 01:43:54 porteus kernel: /dev/loop0: Can't open blockdev
+Apr 10 01:43:54 porteus last message buffered 1 times
+Apr 10 01:43:54 porteus kernel: /dev/loop1: Can't open blockdev
+Apr 10 01:43:54 porteus kernel: /dev/loop2: Can't open blockdev
+Apr 10 01:43:54 porteus kernel: /dev/loop3: Can't open blockdev
+Apr 10 01:43:54 porteus kernel: /dev/loop4: Can't open blockdev
+Apr 10 01:43:59 porteus kernel: nouveau 0000:06:00.0: bus: MMIO write of 8000012f FAULT at 10eb14 [ PRIVRING ]
+Apr 10 01:44:00 porteus gpm[575]: O0o.oops(): [daemon/old_main.c(58)]: 
+Apr 10 01:44:00 porteus gpm[575]: Could not open /dev/mouse.
+Apr 10 01:43:59 porteus kernel: nouveau 0000:06:00.0: DRM: failed to create encoder 1/8/0: -19
+Apr 10 01:43:59 porteus kernel: nouveau 0000:06:00.0: DRM: Virtual-1 has no encoders, removing
+Apr 10 01:44:10 porteus pulseaudio[1004]: [pulseaudio] authkey.c: Failed to open cookie file '/home/guest/.config/pulse/cookie': No such file or directory
+Apr 10 01:44:10 porteus pulseaudio[1004]: [pulseaudio] authkey.c: Failed to load authentication key '/home/guest/.config/pulse/cookie': No such file or directory
+Apr 10 01:44:10 porteus pulseaudio[1004]: [pulseaudio] authkey.c: Failed to open cookie file '/home/guest/.pulse-cookie': No such file or directory
+Apr 10 01:44:10 porteus pulseaudio[1004]: [pulseaudio] authkey.c: Failed to load authentication key '/home/guest/.pulse-cookie': No such file or directory
+Apr 10 01:44:10 porteus pulseaudio[1004]: [pulseaudio] module-rescue-streams.c: module-rescue-stream is obsolete and should no longer be loaded. Please remove it from your configuration.
+Apr 10 01:44:10 porteus pulseaudio[1004]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.ServiceUnknown: The name org.bluez was not provided by any .service files
+Apr 10 01:44:10 porteus pulseaudio[1108]: [pulseaudio] pid.c: Daemon already running.
+Apr 10 01:44:13 porteus cinnamon-session[894]: WARNING: t+4.91640s: Detected that screensaver has appeared on the bus 
+Apr 10 01:44:23 porteus cinnamon-session[894]: WARNING: t+14.92044s: Detected that screensaver has left the bus 

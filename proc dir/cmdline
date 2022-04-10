@@ -1,0 +1,1 @@
+quiet BOOT_IMAGE=/boot/syslinux/vmlinuz changes=/porteus initrd=/boot/syslinux/initrd.xz APPEND changes=EXIT:

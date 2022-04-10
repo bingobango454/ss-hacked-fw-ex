@@ -1,0 +1,48 @@
+Apr 10 01:43:52 porteus kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Apr 10 01:43:52 porteus kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+Apr 10 01:43:52 porteus kernel: e820: update [mem 0xe0000000-0xffffffff] usable ==> reserved
+Apr 10 01:43:52 porteus kernel: ACPI: Local APIC address 0xfee00000
+Apr 10 01:43:52 porteus kernel: system APIC only can use physical flat
+Apr 10 01:43:52 porteus kernel: On node 0 totalpages: 4176869
+Apr 10 01:43:52 porteus kernel:   DMA zone: 64 pages used for memmap
+Apr 10 01:43:52 porteus kernel:   DMA zone: 21 pages reserved
+Apr 10 01:43:52 porteus kernel:   DMA zone: 3997 pages, LIFO batch:0
+Apr 10 01:43:52 porteus kernel:   DMA32 zone: 14052 pages used for memmap
+Apr 10 01:43:52 porteus kernel:   DMA32 zone: 899272 pages, LIFO batch:63
+Apr 10 01:43:52 porteus kernel:   Normal zone: 51150 pages used for memmap
+Apr 10 01:43:52 porteus kernel:   Normal zone: 3273600 pages, LIFO batch:63
+Apr 10 01:43:52 porteus kernel: ACPI: Local APIC address 0xfee00000
+Apr 10 01:43:52 porteus kernel: system APIC only can use physical flat
+Apr 10 01:43:52 porteus kernel: ACPI: IRQ0 used by override.
+Apr 10 01:43:52 porteus kernel: ACPI: IRQ9 used by override.
+Apr 10 01:43:52 porteus kernel: pcpu-alloc: s139736 r8192 d32296 u262144 alloc=1*2097152
+Apr 10 01:43:52 porteus kernel: pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Apr 10 01:43:52 porteus kernel: pcpu-alloc: [0] 16 17 18 19 20 21 22 23 [0] 24 25 26 27 28 29 30 31 
+Apr 10 01:43:52 porteus kernel: libata version 3.00 loaded.
+Apr 10 01:43:52 porteus kernel: PCI: pci_cache_line_size set to 64 bytes
+Apr 10 01:43:52 porteus kernel: e820: reserve RAM buffer [mem 0x0009ec00-0x0009ffff]
+Apr 10 01:43:52 porteus kernel: e820: reserve RAM buffer [mem 0x09d00000-0x0bffffff]
+Apr 10 01:43:52 porteus kernel: e820: reserve RAM buffer [mem 0x0a200000-0x0bffffff]
+Apr 10 01:43:52 porteus kernel: e820: reserve RAM buffer [mem 0x0b000000-0x0bffffff]
+Apr 10 01:43:52 porteus kernel: e820: reserve RAM buffer [mem 0xda6b2000-0xdbffffff]
+Apr 10 01:43:52 porteus kernel: e820: reserve RAM buffer [mem 0xdbd42000-0xdbffffff]
+Apr 10 01:43:52 porteus kernel: e820: reserve RAM buffer [mem 0xdf000000-0xdfffffff]
+Apr 10 01:43:52 porteus kernel: e820: reserve RAM buffer [mem 0x41f380000-0x41fffffff]
+Apr 10 01:43:52 porteus kernel: system 00:00: Plug and Play ACPI device, IDs PNP0c01 (active)
+Apr 10 01:43:52 porteus kernel: system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
+Apr 10 01:43:52 porteus kernel: pnp 00:02: Plug and Play ACPI device, IDs PNP0b00 (active)
+Apr 10 01:43:52 porteus kernel: system 00:03: Plug and Play ACPI device, IDs PNP0c02 (active)
+Apr 10 01:43:52 porteus kernel: system 00:04: Plug and Play ACPI device, IDs PNP0c02 (active)
+Apr 10 01:43:52 porteus kernel: ahci 0000:01:00.1: version 3.0
+Apr 10 01:43:53 porteus kernel:   with arguments:
+Apr 10 01:43:53 porteus kernel:     /init
+Apr 10 01:43:53 porteus kernel:     APPEND
+Apr 10 01:43:53 porteus kernel:   with environment:
+Apr 10 01:43:53 porteus kernel:     HOME=/
+Apr 10 01:43:53 porteus kernel:     TERM=linux
+Apr 10 01:43:53 porteus kernel:     BOOT_IMAGE=/boot/syslinux/vmlinuz
+Apr 10 01:43:53 porteus kernel:     changes=EXIT:
+Apr 10 01:43:53 porteus kernel: sd 9:0:0:0: [sda] Mode Sense: 43 00 00 00
+Apr 10 01:43:54 porteus kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 10 01:43:54 porteus last message buffered 1 times
+Apr 10 01:43:54 porteus kernel: ISO 9660 Extensions: RRIP_1991A

@@ -1,0 +1,89 @@
+Apr 10 01:44:01 porteus su[519]: Successful su for guest by root
+Apr 10 01:44:01 porteus su[519]: + /dev/console root:guest
+Apr 10 01:44:01 porteus su[519]: pam_unix(su:session): session opened for user guest(uid=1000) by (uid=0)
+Apr 10 01:44:01 porteus su[519]: gkr-pam: unable to locate daemon control file
+Apr 10 01:44:01 porteus su[519]: gkr-pam: gnome-keyring-daemon started properly
+Apr 10 01:44:02 porteus su[519]: pam_unix(su:session): session closed for user guest
+Apr 10 01:44:02 porteus su[799]: Successful su for root by root
+Apr 10 01:44:02 porteus su[799]: + /dev/console root:root
+Apr 10 01:44:02 porteus su[799]: pam_unix(su:session): session opened for user root(uid=0) by (uid=0)
+Apr 10 01:44:02 porteus su[799]: gkr-pam: unable to locate daemon control file
+Apr 10 01:44:02 porteus su[799]: gkr-pam: gnome-keyring-daemon started properly
+Apr 10 01:44:02 porteus su[799]: pam_unix(su:session): session closed for user root
+Apr 10 01:44:07 porteus slim: pam_unix(slim:session): session opened for user guest(uid=1000) by (uid=0)
+Apr 10 01:44:07 porteus slim: gkr-pam: unable to locate daemon control file
+Apr 10 01:44:07 porteus slim: gkr-pam: gnome-keyring-daemon started properly
+Apr 10 01:44:07 porteus slim: gkr-pam: couldn't unlock the login keyring.
+Apr 10 01:44:09 porteus polkitd[1018]: Loading rules from directory /etc/polkit-1/rules.d
+Apr 10 01:44:09 porteus polkitd[1018]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr 10 01:44:09 porteus polkitd[1018]: Finished loading, compiling and executing 9 rules
+Apr 10 01:44:09 porteus polkitd[1018]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr 10 01:44:12 porteus polkitd[1018]: Registered Authentication Agent for unix-session:c1 (system bus name :1.56 [/usr/libexec/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr 10 01:44:24 porteus polkit-agent-helper-1[1288]: gkr-pam: unable to locate daemon control file
+Apr 10 01:44:24 porteus polkit-agent-helper-1[1288]: gkr-pam: stashed password to try later in open session
+Apr 10 01:44:24 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations-helper for unix-process:902:1417 [/usr/libexec/gvfsd] (owned by unix-user:guest)
+Apr 10 01:44:24 porteus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+Apr 10 01:44:24 porteus pkexec: gkr-pam: unable to locate daemon control file
+Apr 10 01:44:24 porteus pkexec: gkr-pam: couldn't setup credentials: Operation not permitted
+Apr 10 01:44:24 porteus pkexec: gkr-pam: gnome-keyring-daemon didn't start properly
+Apr 10 01:44:24 porteus pkexec[1277]: guest: Executing command [USER=root] [TTY=unknown] [CWD=/] [COMMAND=/usr/libexec/gvfsd-admin --spawner :1.1 /org/gtk/gvfs/exec_spaw/1 --address unix:abstract=/tmp/dbus-5R5tLMLgDW,guid=d599f3a6f0749cbd01e144d962523667 --dir /run/user/1000]
+Apr 10 01:44:26 porteus polkit-agent-helper-1[1299]: gkr-pam: unable to locate daemon control file
+Apr 10 01:44:26 porteus polkit-agent-helper-1[1299]: gkr-pam: stashed password to try later in open session
+Apr 10 01:44:26 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 01:45:25 porteus polkit-agent-helper-1[1345]: gkr-pam: unable to locate daemon control file
+Apr 10 01:45:25 porteus polkit-agent-helper-1[1345]: gkr-pam: stashed password to try later in open session
+Apr 10 01:45:25 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1320:8864 [xed admin:///etc/gpm-root.conf] (owned by unix-user:guest)
+Apr 10 01:45:47 porteus polkit-agent-helper-1[1375]: gkr-pam: unable to locate daemon control file
+Apr 10 01:45:47 porteus polkit-agent-helper-1[1375]: gkr-pam: stashed password to try later in open session
+Apr 10 01:45:47 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 01:49:31 porteus polkit-agent-helper-1[1562]: gkr-pam: unable to locate daemon control file
+Apr 10 01:49:31 porteus polkit-agent-helper-1[1562]: gkr-pam: stashed password to try later in open session
+Apr 10 01:49:31 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 01:51:31 porteus polkit-agent-helper-1[1675]: gkr-pam: unable to locate daemon control file
+Apr 10 01:51:31 porteus polkit-agent-helper-1[1675]: gkr-pam: stashed password to try later in open session
+Apr 10 01:51:31 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 01:54:40 porteus polkitd[1018]: Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 01:54:41 porteus last message buffered 1 times
+Apr 10 01:54:43 porteus polkit-agent-helper-1[1820]: gkr-pam: unable to locate daemon control file
+Apr 10 01:54:43 porteus polkit-agent-helper-1[1820]: gkr-pam: stashed password to try later in open session
+Apr 10 01:54:43 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 01:56:38 porteus polkit-agent-helper-1[1925]: gkr-pam: unable to locate daemon control file
+Apr 10 01:56:38 porteus polkit-agent-helper-1[1925]: gkr-pam: stashed password to try later in open session
+Apr 10 01:56:38 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 01:59:52 porteus polkit-agent-helper-1[2079]: gkr-pam: unable to locate daemon control file
+Apr 10 01:59:52 porteus polkit-agent-helper-1[2079]: gkr-pam: stashed password to try later in open session
+Apr 10 01:59:52 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 02:01:41 porteus polkitd[1018]: Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 02:01:44 porteus polkit-agent-helper-1[2140]: gkr-pam: unable to locate daemon control file
+Apr 10 02:01:44 porteus polkit-agent-helper-1[2140]: gkr-pam: stashed password to try later in open session
+Apr 10 02:01:44 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 02:04:54 porteus polkitd[1018]: Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 02:04:57 porteus polkit-agent-helper-1[2259]: gkr-pam: unable to locate daemon control file
+Apr 10 02:04:57 porteus polkit-agent-helper-1[2259]: gkr-pam: stashed password to try later in open session
+Apr 10 02:04:57 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 02:06:49 porteus polkit-agent-helper-1[2325]: gkr-pam: unable to locate daemon control file
+Apr 10 02:06:49 porteus polkit-agent-helper-1[2325]: gkr-pam: stashed password to try later in open session
+Apr 10 02:06:49 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 02:11:00 porteus polkit-agent-helper-1[2587]: gkr-pam: unable to locate daemon control file
+Apr 10 02:11:00 porteus polkit-agent-helper-1[2587]: gkr-pam: stashed password to try later in open session
+Apr 10 02:11:00 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 02:11:56 porteus polkitd[1018]: Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 02:11:59 porteus polkit-agent-helper-1[2621]: gkr-pam: unable to locate daemon control file
+Apr 10 02:11:59 porteus polkit-agent-helper-1[2621]: gkr-pam: stashed password to try later in open session
+Apr 10 02:11:59 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 02:16:11 porteus polkitd[1018]: Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 02:16:12 porteus last message buffered 1 times
+Apr 10 02:16:16 porteus polkit-agent-helper-1[2650]: gkr-pam: unable to locate daemon control file
+Apr 10 02:16:16 porteus polkit-agent-helper-1[2650]: gkr-pam: stashed password to try later in open session
+Apr 10 02:16:16 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 02:17:46 porteus polkit-agent-helper-1[2699]: gkr-pam: unable to locate daemon control file
+Apr 10 02:17:46 porteus polkit-agent-helper-1[2699]: gkr-pam: stashed password to try later in open session
+Apr 10 02:17:46 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 02:21:21 porteus polkit-agent-helper-1[2997]: gkr-pam: unable to locate daemon control file
+Apr 10 02:21:21 porteus polkit-agent-helper-1[2997]: gkr-pam: stashed password to try later in open session
+Apr 10 02:21:21 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1251:2422 [nemo] (owned by unix-user:guest)
+Apr 10 02:22:56 porteus polkitd[1018]: Operator of unix-session:c1 FAILED to authenticate to gain authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)
+Apr 10 02:22:56 porteus last message buffered 1 times
+Apr 10 02:23:04 porteus polkit-agent-helper-1[3079]: gkr-pam: unable to locate daemon control file
+Apr 10 02:23:04 porteus polkit-agent-helper-1[3079]: gkr-pam: stashed password to try later in open session
+Apr 10 02:23:04 porteus polkitd[1018]: Operator of unix-session:c1 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:1351:11134 [xed admin:///etc/environment] (owned by unix-user:guest)

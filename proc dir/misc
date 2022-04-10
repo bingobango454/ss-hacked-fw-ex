@@ -1,0 +1,10 @@
+232 kvm
+183 hw_random
+234 btrfs-control
+126 cpu_dma_latency
+184 microcode
+  1 psaux
+237 loop-control
+228 hpet
+229 fuse
+127 vga_arbiter

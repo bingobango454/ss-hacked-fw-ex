@@ -1,0 +1,23 @@
+Device	S-state	  Status   Sysfs node
+GPP0	  S4	*disabled
+GPP1	  S4	*disabled
+GPP3	  S4	*disabled
+GPP4	  S4	*disabled
+GPP5	  S4	*disabled
+GPP6	  S4	*disabled
+GPP7	  S4	*disabled
+GPP8	  S4	*enabled   pci:0000:00:03.1
+GPP9	  S4	*disabled
+GPPA	  S4	*disabled
+GPPB	  S4	*disabled
+GPPC	  S4	*disabled
+GPPD	  S4	*disabled
+GPPE	  S4	*disabled
+GPPF	  S4	*disabled
+GP17	  S4	*enabled   pci:0000:00:07.1
+XHC0	  S4	*enabled   pci:0000:07:00.3
+GP18	  S4	*enabled   pci:0000:00:08.1
+PS2K	  S3	*disabled
+PS2M	  S3	*disabled
+GPP2	  S4	*enabled   pci:0000:00:01.3
+PTXH	  S4	*enabled   pci:0000:01:00.0

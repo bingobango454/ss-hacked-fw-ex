@@ -1,0 +1,22 @@
+# Recognized devices:
+/dev/sda1: LABEL="Porteus" TYPE="iso9660"
+/dev/sda: LABEL="Porteus" TYPE="iso9660"
+
+# Booting device:
+/mnt/sda
+
+# Porteus data found in:
+/mnt/sda/porteus
+
+# Changes are stored in:
+memory
+
+# Non standard /rootcopy dir:
+none
+
+# Modules activated during boot time:
+/mnt/sda/porteus/base/000-kernel.xzm
+/mnt/sda/porteus/base/001-core.xzm
+/mnt/sda/porteus/base/002-xorg.xzm
+/mnt/sda/porteus/base/002-xtra.xzm
+/mnt/sda/porteus/base/003-cinnamon.xzm

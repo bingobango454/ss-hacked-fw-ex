@@ -1,0 +1,8 @@
+pos:	0
+flags:	02004002
+mnt_id:	13
+clockid: 1
+ticks: 0
+settime flags: 01
+it_value: (0, 0)
+it_interval: (0, 0)

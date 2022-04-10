@@ -1,0 +1,7 @@
+   Host scsi9: usb-storage
+       Vendor:  USB
+      Product:  SanDisk 3.2Gen1
+Serial Number: 0101aca45d067a106c893431c678f1820e05f0e0f072ad41b7eb7bd4589b0bc36423000000000000000000002b2aed99ff9e150081558107cf2a9dcc
+     Protocol: Transparent SCSI
+    Transport: Bulk
+       Quirks: SANE_SENSE

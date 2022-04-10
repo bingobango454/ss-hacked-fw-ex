@@ -1,0 +1,5 @@
+gvfsd-admin
+
+/usr/libexec/gvfsd-admin
+
+"gvfsd-admin must be executed under pkexec"

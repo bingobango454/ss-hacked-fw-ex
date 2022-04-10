@@ -1,0 +1,4 @@
+pos:	0
+flags:	02004000
+mnt_id:	13
+inotify wd:1 ino:cc1 sdev:14 mask:c06 ignored_mask:0 fhandle-bytes:28 fhandle-type:63 f_handle:0001000005000000c10c000000000000380b0000000000005273f247010000004151770044000000

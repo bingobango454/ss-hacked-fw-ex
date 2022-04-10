@@ -1,0 +1,483 @@
+Timer List Version: v0.8
+HRTIMER_MAX_CLOCK_BASES: 8
+now at 5889612247237 nsecs
+
+cpu: 0
+ clock 0:
+  .base:       00000000a690aab4
+  .index:      0
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff810982e2
+  .offset:     0 nsecs
+active timers:
+ #0: <000000003aa23882>, 0xffffffff810a2418, S:01
+ # expires at 5889613000000-5889613000000 nsecs [in 752763 to 752763 nsecs]
+ #1: <00000000120ba902>, 0xffffffff8109700c, S:01
+ # expires at 5889616061734-5889621061732 nsecs [in 3814497 to 8814495 nsecs]
+ #2: <00000000f0241c1d>, 0xffffffff8109700c, S:01
+ # expires at 5889651045910-5889652045909 nsecs [in 38798673 to 39798672 nsecs]
+ #3: <00000000234b6b45>, 0xffffffff8109700c, S:01
+ # expires at 5889680013812-5889681013811 nsecs [in 67766575 to 68766574 nsecs]
+ #4: <0000000014fc7dd8>, 0xffffffff8109700c, S:01
+ # expires at 5890906379086-5890908932085 nsecs [in 1294131849 to 1296684848 nsecs]
+ #5: <00000000bb953b92>, 0xffffffff8109700c, S:01
+ # expires at 5931905719988-5931965706987 nsecs [in 42293472751 to 42353459750 nsecs]
+ #6: <00000000b29c2fd2>, 0xffffffff8109700c, S:01
+ # expires at 6009000081715-6009100081715 nsecs [in 119387834478 to 119487834478 nsecs]
+ clock 1:
+  .base:       0000000028994bbc
+  .index:      1
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f40
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 2:
+  .base:       0000000091f45a97
+  .index:      2
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f36
+  .offset:     0 nsecs
+active timers:
+ clock 3:
+  .base:       00000000fdee5c8d
+  .index:      3
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f2c
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 4:
+  .base:       00000000ff85212a
+  .index:      4
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff810982e2
+  .offset:     0 nsecs
+active timers:
+ clock 5:
+  .base:       00000000af024554
+  .index:      5
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f40
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 6:
+  .base:       00000000efaed99e
+  .index:      6
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f36
+  .offset:     0 nsecs
+active timers:
+ clock 7:
+  .base:       000000008df2cf23
+  .index:      7
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f2c
+  .offset:     1649555033503659972 nsecs
+active timers:
+  .expires_next   : 5889613000000 nsecs
+  .hres_active    : 1
+  .nr_events      : 37369377
+  .nr_retries     : 29281
+  .nr_hangs       : 0
+  .max_hang_time  : 0
+  .nohz_mode      : 2
+  .last_tick      : 5889601000000 nsecs
+  .tick_stopped   : 0
+  .idle_jiffies   : 4300556896
+  .idle_calls     : 884659
+  .idle_sleeps    : 884639
+  .idle_entrytime : 5889603426035 nsecs
+  .idle_waketime  : 5889600305734 nsecs
+  .idle_exittime  : 5889600307908 nsecs
+  .idle_sleeptime : 5029399207088 nsecs
+  .iowait_sleeptime: 11237796869 nsecs
+  .last_jiffies   : 4300556899
+  .next_timer     : 5903328000000
+  .idle_expires   : 5903328000000 nsecs
+jiffies: 4300556908
+
+cpu: 1
+ clock 0:
+  .base:       000000003f7ec1fd
+  .index:      0
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff810982e2
+  .offset:     0 nsecs
+active timers:
+ #0: <00000000e3a3fedd>, 0xffffffff810a2418, S:01
+ # expires at 5889613000000-5889613000000 nsecs [in 752763 to 752763 nsecs]
+ #1: <000000007eb5cfbf>, 0xffffffff8109700c, S:01
+ # expires at 5889625667009-5889625717009 nsecs [in 13419772 to 13469772 nsecs]
+ #2: <00000000b524b033>, 0xffffffff8109700c, S:01
+ # expires at 5890100309321-5890100359321 nsecs [in 488062084 to 488112084 nsecs]
+ #3: <00000000d1d1069e>, 0xffffffff8109700c, S:01
+ # expires at 5890101432300-5890101482300 nsecs [in 489185063 to 489235063 nsecs]
+ #4: <0000000096d1dd20>, 0xffffffff8109700c, S:01
+ # expires at 5890103432360-5890103482360 nsecs [in 491185123 to 491235123 nsecs]
+ #5: <00000000013ac3dd>, 0xffffffff8109700c, S:01
+ # expires at 5891906094809-5891910091808 nsecs [in 2293847572 to 2297844571 nsecs]
+ #6: <00000000624020b3>, 0xffffffff8109700c, S:01
+ # expires at 5893000053582-5893004049581 nsecs [in 3387806345 to 3391802344 nsecs]
+ #7: <00000000bcfd6e98>, 0xffffffff8109700c, S:01
+ # expires at 5895905803773-5895935802772 nsecs [in 6293556536 to 6323555535 nsecs]
+ #8: <0000000056d6f393>, 0xffffffff8109700c, S:01
+ # expires at 5902050540722-5902050590722 nsecs [in 12438293485 to 12438343485 nsecs]
+ clock 1:
+  .base:       000000006a77ec8a
+  .index:      1
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f40
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 2:
+  .base:       00000000d470e987
+  .index:      2
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f36
+  .offset:     0 nsecs
+active timers:
+ clock 3:
+  .base:       0000000024a440bf
+  .index:      3
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f2c
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 4:
+  .base:       000000009259105b
+  .index:      4
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff810982e2
+  .offset:     0 nsecs
+active timers:
+ clock 5:
+  .base:       00000000b857d01e
+  .index:      5
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f40
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 6:
+  .base:       0000000051601f26
+  .index:      6
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f36
+  .offset:     0 nsecs
+active timers:
+ clock 7:
+  .base:       000000003b05b191
+  .index:      7
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f2c
+  .offset:     1649555033503659972 nsecs
+active timers:
+  .expires_next   : 5889613000000 nsecs
+  .hres_active    : 1
+  .nr_events      : 38820771
+  .nr_retries     : 32294
+  .nr_hangs       : 0
+  .max_hang_time  : 0
+  .nohz_mode      : 2
+  .last_tick      : 5889330000000 nsecs
+  .tick_stopped   : 0
+  .idle_jiffies   : 4300556625
+  .idle_calls     : 1264464
+  .idle_sleeps    : 1264451
+  .idle_entrytime : 5889612300928 nsecs
+  .idle_waketime  : 5889329186362 nsecs
+  .idle_exittime  : 5889329201821 nsecs
+  .idle_sleeptime : 5021358124333 nsecs
+  .iowait_sleeptime: 8122733792 nsecs
+  .last_jiffies   : 4300556908
+  .next_timer     : 5899232000000
+  .idle_expires   : 5899232000000 nsecs
+jiffies: 4300556908
+
+cpu: 2
+ clock 0:
+  .base:       0000000087a887c0
+  .index:      0
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff810982e2
+  .offset:     0 nsecs
+active timers:
+ #0: <0000000073000fc2>, 0xffffffff810a2418, S:01
+ # expires at 5889613000000-5889613000000 nsecs [in 752763 to 752763 nsecs]
+ #1: <0000000080f19525>, 0xffffffff8109700c, S:01
+ # expires at 5889625794688-5889625844688 nsecs [in 13547451 to 13597451 nsecs]
+ #2: <0000000037a4939c>, 0xffffffff8109700c, S:01
+ # expires at 5889710022996-5889711022995 nsecs [in 97775759 to 98775758 nsecs]
+ #3: <00000000b33c2e15>, 0xffffffff8109700c, S:01
+ # expires at 5889712476407-5889712576406 nsecs [in 100229170 to 100329169 nsecs]
+ #4: <000000004e59a356>, 0xffffffff8109700c, S:01
+ # expires at 5890000595580-5890000985579 nsecs [in 388348343 to 388738342 nsecs]
+ #5: <000000001f25b3ef>, 0xffffffff8109700c, S:01
+ # expires at 5890071012315-5890072012314 nsecs [in 458765078 to 459765077 nsecs]
+ #6: <0000000071407dfd>, 0xffffffff8109700c, S:01
+ # expires at 5979514402914-5979604305913 nsecs [in 89902155677 to 89992058676 nsecs]
+ #7: <0000000034a29aaf>, 0xffffffff8109700c, S:01
+ # expires at 6020336415431-6020436415431 nsecs [in 130724168194 to 130824168194 nsecs]
+ #8: <000000007a043ae8>, 0xffffffff8109700c, S:01
+ # expires at 7015905405248-7016005405248 nsecs [in 1126293158011 to 1126393158011 nsecs]
+ clock 1:
+  .base:       00000000d9006f27
+  .index:      1
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f40
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 2:
+  .base:       000000004f8d5bb1
+  .index:      2
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f36
+  .offset:     0 nsecs
+active timers:
+ clock 3:
+  .base:       000000000c99a47d
+  .index:      3
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f2c
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 4:
+  .base:       000000007ca82e5f
+  .index:      4
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff810982e2
+  .offset:     0 nsecs
+active timers:
+ clock 5:
+  .base:       00000000ec271554
+  .index:      5
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f40
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 6:
+  .base:       000000002768aacc
+  .index:      6
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f36
+  .offset:     0 nsecs
+active timers:
+ clock 7:
+  .base:       0000000063c62301
+  .index:      7
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f2c
+  .offset:     1649555033503659972 nsecs
+active timers:
+  .expires_next   : 5889613000000 nsecs
+  .hres_active    : 1
+  .nr_events      : 36000941
+  .nr_retries     : 29422
+  .nr_hangs       : 0
+  .max_hang_time  : 0
+  .nohz_mode      : 2
+  .last_tick      : 5889370000000 nsecs
+  .tick_stopped   : 0
+  .idle_jiffies   : 4300556665
+  .idle_calls     : 818706
+  .idle_sleeps    : 818692
+  .idle_entrytime : 5889612480264 nsecs
+  .idle_waketime  : 5889369993435 nsecs
+  .idle_exittime  : 5889369998444 nsecs
+  .idle_sleeptime : 5053474164304 nsecs
+  .iowait_sleeptime: 11492215881 nsecs
+  .last_jiffies   : 4300556908
+  .next_timer     : 5889606000000
+  .idle_expires   : 5889373000000 nsecs
+jiffies: 4300556908
+
+cpu: 3
+ clock 0:
+  .base:       000000006f150b9e
+  .index:      0
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff810982e2
+  .offset:     0 nsecs
+active timers:
+ #0: <00000000183ea6ee>, 0xffffffff810a2418, S:01
+ # expires at 5889613000000-5889613000000 nsecs [in 752763 to 752763 nsecs]
+ #1: <000000000da30062>, 0xffffffff8109700c, S:01
+ # expires at 5889630030802-5889631030801 nsecs [in 17783565 to 18783564 nsecs]
+ #2: <00000000acdba0eb>, 0xffffffff8109700c, S:01
+ # expires at 5890112413260-5890112463260 nsecs [in 500166023 to 500216023 nsecs]
+ #3: <00000000ab44c994>, 0xffffffff8109700c, S:01
+ # expires at 5891000758186-5891004758185 nsecs [in 1388510949 to 1392510948 nsecs]
+ #4: <00000000ba97b8a3>, 0xffffffff8109700c, S:01
+ # expires at 5891906031275-5891910027274 nsecs [in 2293784038 to 2297780037 nsecs]
+ #5: <00000000cafe4a29>, 0xffffffff8109700c, S:01
+ # expires at 5891906040537-5891910037536 nsecs [in 2293793300 to 2297790299 nsecs]
+ #6: <00000000393c5fd5>, 0xffffffff8109700c, S:01
+ # expires at 5893397119690-5893397169690 nsecs [in 3784872453 to 3784922453 nsecs]
+ #7: <00000000bf4baa5c>, 0xffffffff8109ffb8, S:01
+ # expires at 5916911044071-5916911044071 nsecs [in 27298796834 to 27298796834 nsecs]
+ #8: <0000000006871953>, 0xffffffff8109700c, S:01
+ # expires at 6017000679192-6017100679192 nsecs [in 127388431955 to 127488431955 nsecs]
+ clock 1:
+  .base:       000000004aa6659e
+  .index:      1
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f40
+  .offset:     1649555033503659972 nsecs
+active timers:
+ #0: <000000006dd2a54a>, 0xffffffff81182d3c, S:01
+ # expires at 1649560980000000000-1649560980000000000 nsecs [in 56884092791 to 56884092791 nsecs]
+ clock 2:
+  .base:       000000000bfc219e
+  .index:      2
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f36
+  .offset:     0 nsecs
+active timers:
+ clock 3:
+  .base:       000000003ccfec7f
+  .index:      3
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f2c
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 4:
+  .base:       0000000026c03d48
+  .index:      4
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff810982e2
+  .offset:     0 nsecs
+active timers:
+ clock 5:
+  .base:       0000000044de4a1d
+  .index:      5
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f40
+  .offset:     1649555033503659972 nsecs
+active timers:
+ clock 6:
+  .base:       0000000050ac11ea
+  .index:      6
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f36
+  .offset:     0 nsecs
+active timers:
+ clock 7:
+  .base:       000000004f59c521
+  .index:      7
+  .resolution: 1 nsecs
+  .get_time:   0xffffffff81096f2c
+  .offset:     1649555033503659972 nsecs
+active timers:
+  .expires_next   : 5889613000000 nsecs
+  .hres_active    : 1
+  .nr_events      : 39549089
+  .nr_retries     : 33040
+  .nr_hangs       : 0
+  .max_hang_time  : 0
+  .nohz_mode      : 2
+  .last_tick      : 5889609000000 nsecs
+  .tick_stopped   : 0
+  .idle_jiffies   : 4300556904
+  .idle_calls     : 821723
+  .idle_sleeps    : 821706
+  .idle_entrytime : 5889612602784 nsecs
+  .idle_waketime  : 5889461184429 nsecs
+  .idle_exittime  : 5889608856829 nsecs
+  .idle_sleeptime : 4996257904498 nsecs
+  .iowait_sleeptime: 9201585875 nsecs
+  .last_jiffies   : 4300556908
+  .next_timer     : 5889864000000
+  .idle_expires   : 5889864000000 nsecs
+jiffies: 4300556908
+
+Tick Device: mode:     1
+Broadcast device
+Clock Event Device: hpet
+ max_delta_ns:   149983003521
+ min_delta_ns:   13410
+ mult:           61496115
+ shift:          32
+ mode:           1
+ next_event:     9223372036854775807 nsecs
+ set_next_event: 0xffffffff81034948
+ shutdown:       0xffffffff81034921
+ periodic:       0xffffffff81034ade
+ oneshot:        0xffffffff810348f4
+ resume:         0xffffffff81034ea8
+ event_handler:  0xffffffff810a15cf
+
+ retries:        0
+
+tick_broadcast_mask: 00000000
+tick_broadcast_oneshot_mask: 00000000
+
+Tick Device: mode:     1
+Per CPU device: 0
+Clock Event Device: lapic
+ max_delta_ns:   344313556040
+ min_delta_ns:   2406
+ mult:           26787711
+ shift:          32
+ mode:           3
+ next_event:     5889613000000 nsecs
+ set_next_event: 0xffffffff8102fe15
+ shutdown:       0xffffffff8102ffb7
+ periodic:       0xffffffff810300ff
+ oneshot:        0xffffffff81030354
+ oneshot stopped: 0xffffffff8102ffb7
+ event_handler:  0xffffffff8109766a
+
+ retries:        3464
+
+Tick Device: mode:     1
+Per CPU device: 1
+Clock Event Device: lapic
+ max_delta_ns:   344313556040
+ min_delta_ns:   2406
+ mult:           26787711
+ shift:          32
+ mode:           3
+ next_event:     5889613000000 nsecs
+ set_next_event: 0xffffffff8102fe15
+ shutdown:       0xffffffff8102ffb7
+ periodic:       0xffffffff810300ff
+ oneshot:        0xffffffff81030354
+ oneshot stopped: 0xffffffff8102ffb7
+ event_handler:  0xffffffff8109766a
+
+ retries:        3329
+
+Tick Device: mode:     1
+Per CPU device: 2
+Clock Event Device: lapic
+ max_delta_ns:   344313556040
+ min_delta_ns:   2406
+ mult:           26787711
+ shift:          32
+ mode:           3
+ next_event:     5889613000000 nsecs
+ set_next_event: 0xffffffff8102fe15
+ shutdown:       0xffffffff8102ffb7
+ periodic:       0xffffffff810300ff
+ oneshot:        0xffffffff81030354
+ oneshot stopped: 0xffffffff8102ffb7
+ event_handler:  0xffffffff8109766a
+
+ retries:        3356
+
+Tick Device: mode:     1
+Per CPU device: 3
+Clock Event Device: lapic
+ max_delta_ns:   344313556040
+ min_delta_ns:   2406
+ mult:           26787711
+ shift:          32
+ mode:           3
+ next_event:     5889613000000 nsecs
+ set_next_event: 0xffffffff8102fe15
+ shutdown:       0xffffffff8102ffb7
+ periodic:       0xffffffff810300ff
+ oneshot:        0xffffffff81030354
+ oneshot stopped: 0xffffffff8102ffb7
+ event_handler:  0xffffffff8109766a
+
+ retries:        3135
+

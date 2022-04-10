@@ -1,0 +1,54 @@
+Name:	elogind-daemon
+Umask:	0022
+State:	S (sleeping)
+Tgid:	612
+Ngid:	0
+Pid:	612
+PPid:	1
+TracerPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+FDSize:	64
+Groups:	 
+NStgid:	612
+NSpid:	612
+NSpgid:	611
+NSsid:	611
+VmPeak:	  250048 kB
+VmSize:	  233840 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	    3480 kB
+VmRSS:	    3412 kB
+RssAnon:	     392 kB
+RssFile:	    3020 kB
+RssShmem:	       0 kB
+VmData:	   33572 kB
+VmStk:	     132 kB
+VmExe:	     144 kB
+VmLib:	    2460 kB
+VmPTE:	      80 kB
+VmSwap:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+Threads:	1
+SigQ:	1/63765
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000200014007
+SigIgn:	0000000400000006
+SigCgt:	0000000180000000
+CapInh:	0000000000000000
+CapPrm:	000001ffffffffff
+CapEff:	000001ffffffffff
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ffffffff
+Cpus_allowed_list:	0-31
+voluntary_ctxt_switches:	330
+nonvoluntary_ctxt_switches:	7
